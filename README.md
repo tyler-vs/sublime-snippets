@@ -1,17 +1,17 @@
-Custom Sublime Text 2 Snippets
+Custom Sublime Text 4 Snippets
 ==============================
 
-Sublime Text 2 is awesome. We think it can be made mo' awesome by adding some custom snippets, hence this little library.
+Sublime Text 2 (& 3 & 4) is awesome. We think it can be made mo' awesome by adding some custom snippets, hence this little library.
 
 
 Installing
 ----------
 
-###With Git
+### With Git
 
-Navigate to your Sublime Text 2 user packages directory:
+Navigate to your Sublime Text 3/4 user packages directory:
 
-    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User/
+    /Users/tylervs/Library/Application Support/Sublime Text 3/Packages/User
 
 And clone the repo to a new directory right then and there:
 
@@ -22,7 +22,7 @@ And clone the repo to a new directory right then and there:
 
 * Download the .zip file from the GitHub downloads modal
 * Unzip the files and rename the folder to "sublime-snippets"
-* Copy the folder to your Sublime Text 2 user packagers directory (`~/Library/Application Support/Sublime Text 2/Packages/User/)
+* Copy the folder to your Sublime Text 2 user packagers directory ~~(`~/Library/Application Support/Sublime Text 2/Packages/User/)`~~ `/Users/tylervs/Library/Application Support/Sublime Text 3/Packages/User` 
 
 
 Bugs & Additions
