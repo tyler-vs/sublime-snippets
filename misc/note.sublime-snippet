@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+# ${TM_FILENAME/(\w+)\.(md|txt)/\1/g}
+
+${0}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>note</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.markdown</scope>
+  <scope>text.plain</scope>
+  <!-- optional: Description -->
+  <description>Returns a H1 markdown header with name of file snippet is invoked upon.</description>
+</snippet>

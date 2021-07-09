@@ -1,0 +1,73 @@
+<snippet>
+  <content><![CDATA[
+{% schema %}
+{
+  "name": "${1:Slideshow}",
+  "tag": "${2:section}",
+  "class": "${3:slideshow}",
+  "max_blocks": "{$4:5}",
+  "settings":
+  [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
+    }
+  ],
+  "blocks":
+  [
+    {
+      "name": "Slide",
+      "type": "slide",
+      "settings":
+      [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets":
+  [
+    {
+      "name": "Slideshow",
+      "category": "Image",
+      "settings":
+      [
+        {
+          "title": "Slideshow"
+        }
+      ],
+      "blocks":
+      [
+        {
+          "type": "image",
+          "settings":
+          []
+        },
+        {
+          "type": "image",
+          "settings":
+          []
+        }
+      ]
+    }
+  ],
+  "templates":
+  [
+    "article",
+    "index",
+    "page",
+    "product"
+  ]
+}
+{% endschema %}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>schema</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic.liquid </scope>
+  <description>Shopify section schema</description>
+</snippet>

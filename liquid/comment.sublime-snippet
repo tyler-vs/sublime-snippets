@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+{% comment %}
+${1:this}
+{% endcomment %}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>comment</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic.liquid </scope>
+  <!-- When showing snippets in the Snippets menu -->
+  <description>Comment in Liquid</description>
+</snippet>
